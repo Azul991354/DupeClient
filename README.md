@@ -16,8 +16,43 @@ DupeClient is an independent Java project focused on networking, connection mana
 
 Add JitPack to your repositories:
 
-```gradle
+```
 repositories {
     maven { url 'https://jitpack.io' }
 }
 ```
+
+Add DupeClient as a dependency:
+
+```
+dependencies {
+    implementation 'com.github.Azul991354:DupeClient:1.0.0'
+}
+```
+
+## Package Structure
+
+    com.dupeclient
+    ├── Proxy.java
+    └── RakNet.java
+
+## Requirements
+
+- Java 8 or newer.
+- Maven or Gradle.
+
+## Project Status
+
+**Version:** 1.0.0
+
+**Status:** Early development.
+
+More features and improvements are planned.
+
+## License
+
+See the LICENSE file for licensing information.
+
+---
+
+Developed by **Azul991354**.
